@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        username: github
-        server: bcstadskanaal.htdocs.github@bcstadskanaal.blob.core.windows.net
+        username: bcstadskanaal.htdocs.github
+        server: bcstadskanaal.blob.core.windows.net
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
         local_path: './static/*'
         remote_path: /
