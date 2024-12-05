@@ -82,11 +82,3 @@ tbody td {
     padding: 10px;
     text-align: center;
 }
-
-tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-tbody tr:hover {
-    background: #f0e5f8;
-}
