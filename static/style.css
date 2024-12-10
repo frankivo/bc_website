@@ -83,10 +83,17 @@ tbody td {
     text-align: center;
 }
 
-#sponsors img.horizontal {
+#sponsoren img.horizontal {
     width: 300px;
 }
 
-#sponsors td {
+#sponsoren td {
     text-align: left;
+}
+
+
+div.map iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
 }
