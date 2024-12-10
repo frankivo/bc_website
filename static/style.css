@@ -82,3 +82,11 @@ tbody td {
     padding: 10px;
     text-align: center;
 }
+
+#sponsors img.horizontal {
+    width: 300px;
+}
+
+#sponsors td {
+    text-align: left;
+}
