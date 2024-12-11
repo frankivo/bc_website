@@ -34,6 +34,12 @@ nav a {
     text-transform: uppercase;
 }
 
+@media (max-width: 750px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 section {
     padding: 20px;
     margin: 20px auto;
@@ -102,5 +108,6 @@ div.map iframe {
 
 div.logo img {
     width: 450px;
+    max-width: 90%;
     margin: 30px;
 }
