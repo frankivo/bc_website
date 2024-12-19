@@ -1,5 +1,4 @@
 on: push
-
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -10,15 +9,12 @@ jobs:
       uses: actions/checkout@v4
 
     - name: 📂 Sync files
-      id: sftp
-      uses: danhendrickson/sftp-transfer-action@v1.23
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.FTP_HOST }}
-        user: ${{ secrets.FTP_USER }}
-        pass: ${{ secrets.FTP_PASSWORD }}
-        port: 22
-        local-path: './docs/'
-        remote-path: '/public_html/'
-
-    - name: 📈 Transfer Status
-      run: echo "Transfer Status - ${{ steps.sftp.outputs.transferStatus }}"
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_USER }}
+        protocol: ftps
+        local-dir: ./docs/
+        server-dir: public_html/
+        log-level: verbose
