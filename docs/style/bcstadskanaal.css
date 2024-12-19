@@ -3,7 +3,8 @@
     src: url('conthrax-sb.ttf');
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -20,6 +21,12 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+
+header div.logo img {
+    width: 450px;
+    max-width: 90%;
+    margin: 30px;
 }
 
 nav ul {
@@ -94,6 +101,15 @@ tbody td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
+    vertical-align: top;
+}
+
+a {
+    color: #111
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #sponsoren img.horizontal {
@@ -104,14 +120,8 @@ tbody td {
     text-align: left;
 }
 
-div.map iframe {
+#locatie iframe {
     width: 100%;
     height: 450px;
     border: none;
-}
-
-div.logo img {
-    width: 450px;
-    max-width: 90%;
-    margin: 30px;
 }
