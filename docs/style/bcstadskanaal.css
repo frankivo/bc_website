@@ -108,6 +108,10 @@ a {
     color: #111
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 #sponsoren img.horizontal {
     width: 300px;
 }
