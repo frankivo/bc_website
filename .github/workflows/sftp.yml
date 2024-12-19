@@ -15,6 +15,6 @@ jobs:
         server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftps
+        protocol: ftps-legacy
         local-dir: ./docs/
         server-dir: /public_html/
