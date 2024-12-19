@@ -21,4 +21,3 @@ jobs:
         protocol: ftps
         local-dir: ./docs/
         server-dir: public_html/
-        log-level: verbose
