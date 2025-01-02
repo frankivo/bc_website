@@ -117,7 +117,9 @@ a:hover {
 }
 
 #sponsoren td {
-    text-align: left;
+    text-align: center;
+    width: 310px;
+    border: none;
 }
 
 #locatie iframe {
