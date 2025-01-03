@@ -60,6 +60,11 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#agenda {
+    max-width: 1550px;
+    background: #f0f4f9;
+}
+
 section h1 {
     color: #6a1b9a;
 }
@@ -126,4 +131,19 @@ a:hover {
     width: 100%;
     height: 450px;
     border: none;
+}
+
+#agenda iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.smalldisplay {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .smalldisplay {
+        display: block;
+    }
 }
