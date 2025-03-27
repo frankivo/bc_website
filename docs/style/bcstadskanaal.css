@@ -23,10 +23,26 @@ header {
     text-align: center;
 }
 
-header div.logo img {
+#logo img {
     width: 450px;
     max-width: 90%;
     margin: 30px;
+}
+
+#facebook img {
+    width: 65px;
+    position: absolute;
+    top: 62px;
+    right: 100px;
+}
+
+@media (max-width: 750px) {
+    #facebook img {
+        width: 45px;
+        position: absolute;
+        top: 130px;
+        right: 20px;
+    }
 }
 
 nav ul {
