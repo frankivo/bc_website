@@ -1,0 +1,20 @@
+@media (max-width: 750px) {
+    #facebook img {
+        width: 45px;
+        position: absolute;
+        top: 130px;
+        right: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .smalldisplay {
+        display: block;
+    }
+}
+
+.smalldisplay {
+    display: none;
+}
