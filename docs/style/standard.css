@@ -125,20 +125,3 @@ a:hover {
     width: 100%;
     height: 600px;
 }
-
-#toernooi td {
-    background-color: #BD9AD2;
-    vertical-align: middle;
-    border: none;
-}
-
-#toernooi h1 {
-    color: #380155;
-    font-family: Conthrax;
-}
-
-#toernooi img {
-    width: 100px;
-    text-align: center;
-    margin-right: 20px;
-}
