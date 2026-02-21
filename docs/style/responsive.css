@@ -18,3 +18,9 @@
 .smalldisplay {
     display: none;
 }
+
+#jsa {
+    img {
+        width: 350px;
+    }
+}
