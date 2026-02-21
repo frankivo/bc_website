@@ -13,14 +13,12 @@
     .smalldisplay {
         display: block;
     }
+
+    #jsa img {
+        width: 350px;
+    }
 }
 
 .smalldisplay {
     display: none;
-}
-
-#jsa {
-    img {
-        width: 350px;
-    }
 }
